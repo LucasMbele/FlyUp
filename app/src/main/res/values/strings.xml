@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">FlyUp</string>
+    <string name="stats">Stats</string>
+    <string name="play">Play</string>
+    <string name="exit">Exit</string>
+    <string name="Yes">Yes</string>
+    <string name="No">No</string>
+
+    <string name="jesus">Jesus</string>
+    <string name="english">English</string>
+    <string name="Français">Français</string>
+    <string name="Português">Português</string>
+
+    <string name="settings">settings</string>
+
+
+    <string name="sound">Sound</string>
+    <string name="language">Language</string>
+    <string name="basics">Basics Settings</string>
+
+    <string name="langue">Langue</string>
+    <string name="Son">Son</string>
+    <string name="Bases">Paramètres basiques</string>
+
+    <string name ="idioma">Idioma</string>
+    <string name="Som">Som</string>
+    <string name="Config">Configuração básica</string>
+
+    <string-array name="value_languages">
+        <item>English</item>
+        <item>Français</item>
+        <item>Português</item>
+    </string-array>
+    <string-array name="languages">
+        <item>English</item>
+        <item>Français</item>
+        <item>Português</item>
+    </string-array>
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background ="@drawable/night_background"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+   <PreferenceCategory
+       android:key="@string/settings"
+       android:textColor ="#00000f">
+    <ListPreference
+        android:entryValues="@array/value_languages"
+        android:textColor ="#00000f"
+        android:fontFamily="@font/nova_slim"
+        android:dialogTitle="Select Language"
+        android:entries="@array/languages"
+        android:icon="@drawable/languages"
+        android:key="@string/language"
+        android:textAlignment="center"
+        android:summary="%s"
+        android:visibility="visible">
+    </ListPreference>
+    <SeekBarPreference
+        android:key="@string/sound"
+        android:progressTint="#0C4485"
+        android:thumbTint="#0C4485"
+        android:textColor ="#00000f"
+        android:fontFamily="@font/nova_slim"
+        android:icon="@drawable/speaker"
+        android:soundEffectsEnabled="true"
+        android:textAlignment="textStart"
+        android:visibility="visible"
+        android:defaultValue="@integer/seek_bar_default"
+        ></SeekBarPreference>
+
+   </PreferenceCategory>
+
+
+</PreferenceScreen>

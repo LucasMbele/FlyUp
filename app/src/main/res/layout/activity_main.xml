@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background ="@drawable/sea_cloud"
+    android:layout_gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LuLu"
+        android:textAllCaps="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="75dp"
+        android:fontFamily="@font/nova_slim"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:textColor="#B98F41">
+
+    </TextView>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="wrap_content"
+        android:textDirection="firstStrong"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/parchment_transparent"></androidx.appcompat.widget.AppCompatImageView>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:src="@drawable/rsz_bird_2"></androidx.appcompat.widget.AppCompatImageView>
+
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/settings"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_settings"
+        ></androidx.appcompat.widget.AppCompatImageButton>
+
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:layout_below="@id/settings"
+    android:layout_marginLeft="130dp"
+    android:layout_marginTop="130dp"
+    >
+    <Button
+        android:id="@+id/textButtonPlay"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/nova_slim"
+        android:text="@string/play"
+        android:textAppearance="?attr/textAppearanceButton"
+        app:strokeColor="?attr/colorOnSurface"
+        app:strokeWidth="1dp"
+        app:shapeAppearance="?attr/shapeAppearanceSmallComponent"
+        android:textColor="#00000f"
+        app:backgroundTint="#FFD180"
+    android:textSize="25sp" />
+    <Button
+        android:id="@+id/Exit"
+        android:layout_below="@id/textButtonPlay"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textColor="#00000f"
+        android:textSize="25sp"
+        android:text="@string/exit"
+        android:fontFamily="@font/nova_slim"
+        android:textAppearance="?attr/textAppearanceButton"
+        app:strokeColor="?attr/colorOnSurface"
+        app:strokeWidth="1dp"
+        app:shapeAppearance="?attr/shapeAppearanceSmallComponent"
+        app:backgroundTint="#FFD180"/>
+
+</RelativeLayout>
+    <TextView
+        android:id="@+id/result"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:textColor="#00000f"
+        android:fontFamily="@font/nova_slim"
+        android:layout_width="wrap_content"
+        android:layout_margin="40dp"
+        android:layout_marginTop="35dp"
+        android:textSize="20sp"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content"></TextView>
+
+    <FrameLayout
+        android:id="@+id/container_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></FrameLayout>
+</RelativeLayout>
