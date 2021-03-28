@@ -23,7 +23,7 @@ import static android.os.Build.VERSION_CODES.O;
 
 public class FlyingBirdView extends View {
      //DIFFERENT LEVELS
-    private final static int MAX_SCORE_LEVEL_1 = 105;
+    private final static int MAX_SCORE_LEVEL_1 = 106;
     private final static int MAX_SCORE_LEVEL_2 = 210;
     private final static int MAX_SCORE_LEVEL_3 = 315;
     private final static int MAX_SCORE_LEVEL_4 = 420;
