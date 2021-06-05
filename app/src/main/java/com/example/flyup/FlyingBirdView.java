@@ -27,7 +27,7 @@ public class FlyingBirdView extends View {
     private final static int MAX_SCORE_LEVEL_2 = 210;
     private final static int MAX_SCORE_LEVEL_3 = 315;
     private final static int MAX_SCORE_LEVEL_4 = 420;
-    private final static int MAX_SCORE_LEVEL_5 = 525;
+    private final static int MAX_SCORE_LEVEL_5 = 605;
 
     //Life, Initial Score
     private int Score = 0;
@@ -53,16 +53,16 @@ public class FlyingBirdView extends View {
 
     //Ball
     //int ballSpeed = 15;
-    int ball_X[] = new int[10];
-    int ball_Y[] = new int[10];
-    int coin_X[] = new int[10];
-    int coin_Y[] = new int[10];
+    int[] ball_X = new int[10];
+    int[] ball_Y = new int[10];
+    int[] coin_X = new int[10];
+    int[] coin_Y = new int[10];
 
 
     private boolean touchFlag = false;
 
     //Bird
-    private Bitmap bird[] = new Bitmap[2];
+    private Bitmap[] bird = new Bitmap[2];
 
     //Background
     private Bitmap background;
@@ -80,7 +80,7 @@ public class FlyingBirdView extends View {
     private Paint level = new Paint();
 
     //Heart
-    private Bitmap Life[] = new Bitmap[2];
+    private Bitmap[] Life = new Bitmap[2];
 
     public FlyingBirdView(Context context) {
 
